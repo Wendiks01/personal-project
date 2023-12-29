@@ -1,0 +1,153 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container .content{
+    text-align: center;
+}
+.container .content h3{
+   font-size: 30px; 
+   color: aqua;
+}
+.container .content h3 span{
+    background-color:rgb(14, 48, 8);
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.container .content h1{
+    font-size: 30px; 
+    color: aqua;
+ }
+ .container .content h1 span{ 
+    color:crimson;
+ }
+ .container .content p{
+    font-size: 30px;
+    margin-bottom: 25px;
+ }
+ .container .content .btn{
+    display:inline-block ;
+    padding: 12px 28px;
+    background: #333;
+    margin: 0 7px;
+    text-transform: capitalize;
+ }
+ .container .content .btn:hover{
+    background: crimson;
+ }
+ .form_container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: wheat;
+ }
+ .form_container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #fff;
+    text-align:center ;
+    width: 500px;
+ }
+ .form_container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+ }
+ .form_container form input,select{
+    width: 95%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+ }
+ .form_container form select option{
+   background: #fff; 
+ }
+ .form_container form .form-btn{
+    background: #fbd0d9;
+    color:rgb(14, 76, 45) ;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .form_container form .form-btn:hover{
+    background: rgb(15, 66, 40);
+    color: #fff;
+ }
+ .form_container form .p{
+    margin-top: 10px;
+    font-size:  20px;
+    color: #333;
+ }
+ .form_container form p a{
+    color: crimson;
+ }
+ .form_container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background:crimson ;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+ }
+ body{
+  background-image: url("../images/img19.jpg");
+ }
+ .column {
+  float: left;
+  padding: 15px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+cursor: pointer;
+}
+
+.column img:hover {
+opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+left: 15px;
+color: white;
+font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+color: white;
+font-size: 35px;
+cursor: pointer;
+}

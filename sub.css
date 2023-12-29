@@ -1,0 +1,71 @@
+body{
+    width: auto;
+    background-image: url(images/img4.jpg);
+    
+
+}
+.content{
+    border-top: 5px solid white;
+}
+.content p{
+    text-align: right;
+    font-size: 30px;
+    color: green;
+    border-bottom: 5px solid white;
+}
+.content h3{
+    text-align: center;
+    font-size: 40px;
+    transition-duration:every 2s;
+}
+.content a{
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 300px;
+    padding-top: 300px;
+    color: rgb(15, 165, 37);
+}
+.content a:hover{
+    color: black;
+    
+}
+.column {
+    float: left;
+    padding: 15px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+  cursor: pointer;
+  }
+  
+  .column img:hover {
+  opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  a{
+    text-decoration: none;
+    align-items: center;
+    font-size: 30px;
+    margin: 500px;
+    color:rgb(0, 179, 0) ;
+  }
+  a:hover{
+    color: black;
+  }

@@ -1,0 +1,51 @@
+
+body{
+  background-image: url("../images/img17.jpg");
+    background-size:cover;
+    background-position:center;
+}
+.logo{
+        color:var(--color-white);
+        font-size:30px;
+        position:center;
+       }
+ .logo span{
+        color:var(--color-primary);
+        }
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color:black;
+  overflow: auto;
+}
+
+.navbar a {
+  float: right;
+  padding: 12px;
+  text-decoration: none;
+  color: rgb(34, 88, 34);
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.text{
+  text-align: center;
+  margin: 150px;
+}
+.box{
+  width: 750px;
+}
